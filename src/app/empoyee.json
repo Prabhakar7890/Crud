@@ -1,0 +1,34 @@
+{
+    "employee": [
+        {
+            "id": 1 ,
+            "name": "Surendhar",
+            "experience": "3 years"
+
+        },
+        {
+            "id": 2,
+            "name": "Parshuram",
+            "experience": "2 years"
+
+        },
+        {
+            "id":  3,
+            "name": "Jagannath",
+            "experience": "10 years"
+
+        },
+        {
+            "id": 4,
+            "name": "Sujeeth",
+            "experience": "1 year"
+
+        },
+        {
+            "id": 5,
+            "name": "Prashanth Varma",
+            "experience": "3 years"
+
+        }
+    ]
+}
