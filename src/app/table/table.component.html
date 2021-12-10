@@ -1,5 +1,5 @@
 <div class="col-6 col-lg-6 offset-lg-3">
-    <table class="table">
+    <table class="table table-bordered border-dark">
         <thead class="thead-dark">
           <tr>
             <th scope="col">Employee ID</th>
@@ -8,6 +8,17 @@
             <th scope="col">Action</th>
           </tr>
         </thead>
+        <tbody>
+          <tr *ngFor = "let employ of employs">
+            <td>{{employ.id}}</td>
+            <td>{{employ.name}}</td>
+            <td>{{employ.experience}}</td>
+            <td><div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-success" (click)="toUpdate()">Update</button>
+              <button type="button" class="btn btn-danger" (click)="toDelete(employ.id)">Delete</button>
+            </div></td>
+          </tr>
+        </tbody>
         <tbody></tbody>
     </table>
 </div>
